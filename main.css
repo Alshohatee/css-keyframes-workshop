@@ -13,7 +13,7 @@ body {
 }
 
 
-/****img***/
+
 
 
 
@@ -26,7 +26,31 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+
+  }
+}
+
+
+.second {
+  /* background-color: red; this was to show the  */
+  animation-name: appear;
+  animation-duration: 5s;
+  /* animation-delay: 3s; */
+}
+
+
+
+
+
 footer{
   position: relative;
   left: 0;
