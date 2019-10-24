@@ -1,7 +1,8 @@
 body {
   font-family: sans-serif;
     margin: auto;
-
+    /* background-image: url(https://stmed.net/sites/default/files/watermelon-wallpapers-28319-4416672.jpg); */
+    background: rgba(76, 175, 80, 0.3)
 
 }
 
@@ -19,6 +20,7 @@ body {
 
 p{
   margin-left: 5px;
+    background: rgba(76, 175, 100, 0.3)
 }
 
 .second{
