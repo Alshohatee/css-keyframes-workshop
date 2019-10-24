@@ -2,8 +2,11 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
+.headerAndFooter {
+ margin: 0px;
   background-color: #ea5169;
+  text-align: center;
+  /* margin: 0; */
 }
 
 /****img***/
@@ -19,4 +22,11 @@ img {
 .column {
   flex: 33.33%;
 
+}
+.footer{
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0%;
+  margin-left: 0%;
 }
