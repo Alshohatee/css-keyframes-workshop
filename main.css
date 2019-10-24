@@ -5,3 +5,18 @@ body {
 h1 {
   background-color: #ea5169;
 }
+
+/****img***/
+
+img {
+  width: 50%;
+  height: 50;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+
+}
