@@ -39,18 +39,6 @@ p{
   }
 }
 
-@keyframes movingToleft {
-  from {
-position: relative;
-left:-100%;
-
-  }
-  to {
-left: 100%;
-  }
-
-}
-
 
 .second {
   /* background-color: red; this was to show the  */
@@ -59,13 +47,6 @@ left: 100%;
   /* animation-delay: 3s; */
 }
 
-
-.second {
-  /* background-color: red; this was to show the  */
-  animation-name: movingToleft;
-  animation-duration: 5s;
-  /* animation-delay: 3s; */
-}
 
 
 
